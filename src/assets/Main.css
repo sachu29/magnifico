@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+h1 {
+    width: 450px;
+    margin-bottom: 20px;
+}
+button {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}

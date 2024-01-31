@@ -1,0 +1,21 @@
+.bgGradient {
+    text-align: center;
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(90deg, rgba(67, 21, 130, 1) 0%, rgba(52, 54, 158, 1) 50%, rgba(122, 57, 176, 1) 88%);
+}
+
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    p {
+        text-align: center;
+    }
+    .bgGradient {
+        border-radius: 0;
+        padding: 40px 20px;
+    }
+}

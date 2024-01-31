@@ -1,0 +1,43 @@
+h1 {
+   font-size: 60px;
+   font-weight: 700;
+   padding-right: 100px;
+}
+
+i {
+   color: gray;
+}
+
+.team-logo {
+   color: gray;
+   background-color: aliceblue;
+}
+
+.input-box {
+   width: 100%;
+   height: 38px;
+   padding-left: 35px;
+   border-radius: 5px;
+   border-color: gray;
+   border: 1px solid gray;
+   z-index: -10;
+}
+
+.input-box:focus {
+   outline: none;
+}
+
+.bi-envelope {
+   position: absolute;
+   top: 50%;
+   left: 20px;
+   transform: translate(-50%, -50%);
+   z-index: 100;
+}
+
+@media screen and (max-width:567px) {
+   h1 {
+      font-size: 40px;
+      padding-right: 0;
+   }
+}

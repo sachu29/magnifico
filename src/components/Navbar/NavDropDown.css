@@ -1,0 +1,16 @@
+/* .dropdown-toggle::after {
+    display: none;
+} */
+
+.dropdown-toggle::after {
+    /* position: absolute; */
+    content: '';
+    display: inline-block;
+    padding: 3px;
+    background-color: transparent;
+    border: 1.5px solid gray;
+    border-top: none;
+    border-left: none;
+    rotate: 45deg;
+    margin-left: 8px;
+}

@@ -1,0 +1,25 @@
+ul li:last-child {
+    padding-right: 0;
+}
+
+.list-group {
+    margin: 0 auto;
+}
+
+.list-group-item {
+    padding: 5px 20px;
+    border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .copy-right {
+        text-align: center;
+    }
+    .list-group-horizontal {
+       display: flex;
+       justify-content: center;
+    }
+    .list-group-item {
+        padding: 5px 5px;
+    }
+}

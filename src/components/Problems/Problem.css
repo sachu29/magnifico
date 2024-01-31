@@ -1,0 +1,47 @@
+.air-balloon {
+    padding: 80px;
+}
+
+.air-balloon::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    border-radius: 15px;
+    background: url('../../assets/hot-air-balloon.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.air-balloon::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -5;
+    border-radius: 15px;
+    background-color: rgb(137, 15, 137);
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 576px) {
+    .air-balloon {
+        padding: 40px 20px;
+    }
+
+    .air-balloon::after {
+        border-radius: 0;
+    }
+
+    .air-balloon::before {
+        border-radius: 0;
+    }
+}

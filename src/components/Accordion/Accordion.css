@@ -1,0 +1,27 @@
+.btn-layout {
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.accordion-btn {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.accordion-btn:first-child {
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+}
+
+.accordion-btn:last-child {
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+}
+
+.accordion-btn.active {
+    background-color: aliceblue;
+}
+
